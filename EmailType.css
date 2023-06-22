@@ -1,0 +1,44 @@
+.emailtype{
+display:flex;
+align-items: center;
+border-bottom: 1px solid whitesmoke;
+   
+
+}
+.emailtype >.email_option{
+
+    display:flex;
+    align-items: center;
+    border-bottom: 3px solid whitesmoke;
+    min-width: 230px;
+    padding: 0px 10px;
+      cursor:pointer;
+}
+.emailtype >.email_option svg{
+
+font-size:20px;
+color:gray;
+margin-right: 10px;
+}
+
+
+.emailtype >.email_option p{
+font-size:15px;
+}
+.emailtype >.email_option:hover{
+
+    background-color: whitesmoke;
+}
+.email_option--active{
+border-bottom:3px solid red !important;
+
+
+}
+.email_option--active p{
+    color: solid red !important;
+font-weight: bold;
+}
+.email_option--active svg{
+   color: solid red !important;
+font-weight: bold;
+}

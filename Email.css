@@ -1,0 +1,184 @@
+.email{
+    display:flex;
+    align-items:center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 10px;
+    height:40px;
+}
+
+.email:hover{
+    box-shadow: 2px 2px 4px solid whitesmoke;
+    cursor:pointer;
+}
+
+.email_left{
+    display:flex;
+  align-items: center;
+  min-width: 300px;
+  flex:20px;
+}
+
+.email_left svg{
+font-size:18px;
+color:grey;
+margin-right: 14px;
+}
+.email_left h4{
+font-size: 14px;
+
+}
+
+
+
+ .email_Mid{
+    display:flex;
+    flex:90px;
+    align-items: center;
+
+}
+.email_Mid p{
+    font-size: 14px;
+}
+ .email_right{
+
+    display:flex;
+     flex:10px;
+    align-items: center;
+}
+
+.email_right p{
+    font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.compose{
+right: 70px;
+position: absolute;
+bottom:0px ;
+min-width: 500px;
+border-radius: 10px 10px 0px 0px;
+overflow: hidden;
+box-shadow:0px 0px 8px rgb(51 51 51/59%) ;
+background-color: #fff;
+}
+
+
+.compose .compose_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+    padding: 7px 15px;
+}
+ .compose_header_right{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+    
+.compose_header_left span{
+    font-size: 14px;
+    }
+
+
+
+.compose .compose_header .compose_header_right svg{
+    font-size: 18px;
+    margin-left:10px;
+    padding: 3px;
+    transition:0.2s linear 0s;
+}
+
+.compose_header_right svg:nth-child(2) path{
+    transform:rotate(45deg);
+    transform-origin:center;
+}
+.compose .compose_header .compose_header_right svg:hover{
+    background:#545454;
+       cursor:pointer;
+}
+
+.compose_do{
+display: flex;
+
+}
+.compose_form{
+flex-direction:column;
+display:flex;
+}
+.compose_form input ,textarea{
+    width:100%;
+    height:40px;
+    outline: 0;
+    border:0px;
+    box-shadow:inset 0 -1px 0 0 rgb(100 121 141/12%);
+    padding: 0px  20px;
+}
+
+.compose_form textarea{
+    height:auto;
+}
+
+.compose_footer{
+
+    display: flex;
+    justify-content: space-between;
+    padding:12px 10px;
+}
+
+.compose_footer button{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border:0px;
+    background-color: aqua;
+    outline: 0;
+    color: #545454;
+    font-size: 20px;
+    padding:0px  0px 10px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.compose_footer button svg{
+
+border-left: 1px solid gray;
+margin-left: 15px;
+padding: 2px 6px 2px 6px;
+
+}
+.compose_footer_right svg{
+font-size: medium;
+margin-left:10px;
+border-radius: 3px;
+color: #545454;
+padding: 3px;
+transition:0.2 linear;
+cursor:pointer;
+}
+.compose_footer_right svg:hover{
+background-color: antiquewhite;
+color: black;
+}
+
+
+
+
